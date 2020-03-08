@@ -54,6 +54,50 @@ Official [WesBos][1] site.
 [1]: http://www.wesbos.com
 [2]: http://www.onet.pl
 
+## Images
+
+*Basic form:*
+
+![Wow great pic!!](http://unsplash.it/500/500?random "this is tooltip")
+
+*Form with key (reference)*
+
+![Link with reference][pictrue1]
+
+[pictrue1]: http://unsplash.it/500/500?image=1012
+
+*Link to pictrue*
+
+[A link](http://unsplash.it/500/500?image=1000)
+
+*Link with thumbnail*
+
+[![](http://unsplash.it/50/50?image=1000)](http://unsplash.it/500/500?image=1000)
+
+*Link with thumbnail in html style*
+
+[<img src="http://unsplash.it/50/50?image=1000">](ttp://unsplash.it/500/500?image=1000)
+
+*Link with thumbnail in html style with css inline style*
+
+<img src="dog.jpg" width="500" height="500" alt="Dog">
+
+<img src="http://unsplash.it/500/500?image=900" width="500" height="500" alt="Dog">
+
+*Link with thumbnail in html style with css stling*
+
+<img src="dog.jpg" alt="Dog"/>
+
+<style>
+    img {
+        width: 200px;
+        height: 160px;
+    }
+</style>
+
+
+
+
 
 
 
