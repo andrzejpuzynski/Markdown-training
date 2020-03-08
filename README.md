@@ -30,3 +30,30 @@ Wes is ~~not~~ cool. (strikethrough with tilde)
 *Below header 6*
 
 ###### Header 6
+
+## Links
+
+*Link 1: wrapping with angle brackets*
+
+<http://www.wesbos.com> - official WesBos site.
+
+*Link 2: wrapping with square brackets*
+
+Official [WesBos](http://www.wesbos.com) site.
+
+*Link 3: wrapping with square brackets and __title tag__*
+
+Official [WesBos](http://www.wesbos.com "WesBos site") site.
+
+*Link 4: wrapping with two square brackets: **first** for highliight, **second** for keylink.*
+
+Official [WesBos][1] site.
+[Onet][2] site.
+
+
+[1]: http://www.wesbos.com
+[2]: http://www.onet.pl
+
+
+
+
