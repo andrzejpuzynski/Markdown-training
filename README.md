@@ -88,12 +88,46 @@ Official [WesBos][1] site.
 
 <img src="dog.jpg" alt="Dog"/>
 
-<style>
-    img {
-        width: 200px;
-        height: 160px;
-    }
-</style>
+## Lists (ordered, unordered), bullets and nesting
+
+*Basic unordered list (asterix, dash or plus)*
+
+* one
+* two 
+* three
+
++ ONE
++ TWO
++ THREE
+
+- One
+- Two
+- Three
+
+*Basic ordered list (using only 1. at the beginig of line)*
+
+1. One
+1. Two
+1. Three
+
+*List with identation and nesting of code block*
+
+1. One
+1. Two
+    + one one
+    + two two
+    + three three
+    
+    ![](http://unsplash.it/200/200?random)
+
+    ```js
+        console.log("Block of code")
+    ````
+
+    + four
+    + five
+1. Three
+
 
 
 
